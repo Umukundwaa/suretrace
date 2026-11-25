@@ -1,0 +1,8 @@
+{
+  "name": "suretrace-mock-insurer-api",
+  "version": "1.0.0",
+  "description": "Simulated ASSAR / insurer registry API used by SureTrace during development",
+  "main": "src/server.js",
+  "scripts": { "start": "node src/server.js" },
+  "dependencies": { "express": "^4.19.2", "cors": "^2.8.5" }
+}

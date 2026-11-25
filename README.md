@@ -6,7 +6,7 @@
 |---|---|
 | **Live demo** | https://suretrace-demo.onrender.com|
 | **Demo video** | _add the video link here_ |
-| **SRS document** | _add the SRS link here_ |
+| **SRS document** | https://docs.google.com/document/d/14Mqt1RaMflnV0NA8hw_eyd62wlFYANJwBwdjSkU8C1w/edit?usp=sharing |
 | **Repository** | https://github.com/Umukundwaa/suretrace |
 
 > **Data notice:** no public Rwandan insurer or ASSAR API exists yet, so insurer records come from a separate **mock insurer API** that simulates it. It returns the same structure a real feed would, and the backend talks to it through a single client file, so it can be swapped for a real API later.

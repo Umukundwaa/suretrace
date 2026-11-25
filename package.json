@@ -1,0 +1,12 @@
+{
+  "name": "suretrace",
+  "version": "0.3.0",
+  "private": true,
+  "description": "SureTrace: vehicle insurance history lookup for Rwanda",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix mock-insurer-api",
+    "start": "node backend/scripts/start-demo.js",
+    "test": "npm test --prefix backend"
+  }
+}

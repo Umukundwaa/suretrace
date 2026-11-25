@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: suretrace-demo
+    runtime: node
+    plan: free
+    region: frankfurt
+    buildCommand: npm ci --prefix backend && npm ci --prefix mock-insurer-api
+    startCommand: node backend/scripts/start-demo.js
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: 22.21.1
+      - key: NODE_ENV
+        value: production
+      - key: DB_CLIENT
+        value: sqlite
+      - key: SQLITE_FILE
+        value: /tmp/suretrace.sqlite
+      - key: DEMO_MODE
+        value: "true"
+      - key: JWT_SECRET
+        generateValue: true
+      - key: INSURER_API_KEY
+        generateValue: true

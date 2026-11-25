@@ -5,7 +5,6 @@
 | | |
 |---|---|
 | **Live demo** | https://suretrace-demo.onrender.com|
-| **Demo video** | _add the video link here_ |
 | **SRS document** | https://docs.google.com/document/d/14Mqt1RaMflnV0NA8hw_eyd62wlFYANJwBwdjSkU8C1w/edit?usp=sharing |
 | **Repository** | https://github.com/Umukundwaa/suretrace |
 
